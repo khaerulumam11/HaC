@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.khaerulumam.hac.PilihDestinasi">
+
+    <include
+        android:id="@+id/appbar_destninasi"
+        layout="@layout/app_bar_layout2" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:columnWidth="0dp"
+        android:gravity="center"
+        android:horizontalSpacing="0pt"
+        android:numColumns="2"
+        android:verticalSpacing="0pt"></GridView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar_destninasi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+</RelativeLayout>

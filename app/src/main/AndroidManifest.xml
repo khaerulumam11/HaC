@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.khaerulumam.hac">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".PilihDestinasi"
+            android:parentActivityName=".ListKota">
+
+        </activity>
+        <activity android:name=".PilihDestinasiBandung"
+            android:parentActivityName=".ListKota">
+
+        </activity>
+        <activity android:name=".PilihDestinasiSurabaya"
+            android:parentActivityName=".ListKota">
+
+        </activity>
+        <activity android:name=".ListEvent" >
+
+        </activity>
+        <activity android:name=".ListKota" >
+
+        </activity>
+        <activity android:name=".Jakarta.ListBudayaJakarta"
+            android:parentActivityName=".PilihDestinasi">
+
+        </activity>
+        <activity android:name=".Jakarta.ListEventJakarta"
+            android:parentActivityName=".PilihDestinasi">
+
+        </activity>
+        <activity android:name=".Jakarta.ListSejarahJakarta"
+            android:parentActivityName=".PilihDestinasi">
+
+        </activity>
+        <activity android:name=".Jakarta.ListStoreJakarta"
+            android:parentActivityName=".PilihDestinasi">
+
+        </activity>
+        <activity android:name=".Bandung.ListBudayaBandung"
+            android:parentActivityName=".PilihDestinasiBandung">
+
+        </activity>
+        <activity android:name=".Bandung.ListEventBandung"
+            android:parentActivityName=".PilihDestinasiBandung">
+
+        </activity>
+        <activity android:name=".Bandung.ListStoreBandung"
+            android:parentActivityName=".PilihDestinasiBandung">
+
+        </activity>
+        <activity android:name=".Bandung.ListSejarahBandung"
+            android:parentActivityName=".PilihDestinasiBandung">
+
+        </activity>
+        <activity android:name=".Surabaya.ListBudayaSurabaya"
+            android:parentActivityName=".PilihDestinasiSurabaya">
+
+        </activity>
+        <activity android:name=".Surabaya.ListSejarahSurabaya"
+            android:parentActivityName=".PilihDestinasiSurabaya">
+
+        </activity>
+        <activity android:name=".Surabaya.ListEventSurabaya"
+            android:parentActivityName=".PilihDestinasiSurabaya">
+
+        </activity>
+        <activity android:name=".Surabaya.ListStoreSurabaya"
+            android:parentActivityName=".PilihDestinasiSurabaya">
+
+        </activity>
+        <activity android:name=".Event">
+        </activity>
+        <activity android:name=".Surabaya.MuseumJayamahe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBnAWHvrmXGSafKYQeYolSuZh7vL5LonZk"/>
+    </application>
+
+</manifest>
